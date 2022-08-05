@@ -127,17 +127,7 @@ section.workers .container .row .col h4 {
   margin-bottom: 85px;
 }
 
-section.workers .container .row .col .swiper {
-  max-width: 1320px;
-  margin: auto;
-}
 
-@media (max-width:576px) {
-  section.workers .container .row .col .swiper{
-    
-  }
-
-}
 
 section.workers .container .row .col .responsive {
   height: 460px;
