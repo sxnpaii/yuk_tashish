@@ -255,9 +255,14 @@ footer .container .row .col nav ul.menu li {
 }
 
 footer .container .row .col nav .place_for_comment {
-  width: 370px;
-
-  flex-wrap: wrap;
+ /* width:370px; */
+  max-width: 345px;
+}
+@media (max-width:992px) {
+  footer .container .row .col nav .place_for_comment{
+    margin: auto;
+  }
+  
 }
 
 footer .container .row .col nav .place_for_comment h6 {
@@ -269,7 +274,7 @@ footer .container .row .col nav .place_for_comment h6 {
 }
 
 footer .container .row .col nav .place_for_comment input {
-  width: 370px;
+  width: 345px;
   height: 50px;
   border: none;
   background: rgba(196, 196, 196, 0.25);
@@ -290,7 +295,7 @@ footer .container .row .col nav .place_for_comment input[type="email"] {
 }
 
 footer .container .row .col nav .place_for_comment a.btn {
-  width: 370px;
+  max-width: 345px;
   height: 60px;
   border-radius: 8px;
   align-items: center;
@@ -322,7 +327,7 @@ footer .container .row .col .copyr_icons p.copyr {
 }
 
 footer .container .row .col .copyr_icons .icons {
-  width: 140px;
+  max-width: 140px;
   display: flex;
   justify-content: space-around;
 }
