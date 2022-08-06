@@ -327,7 +327,7 @@ footer .container .row .col .copyr_icons p.copyr {
 }
 
 footer .container .row .col .copyr_icons .icons {
-  max-width: 140px;
+  width: 140px;
   display: flex;
   justify-content: space-around;
 }
