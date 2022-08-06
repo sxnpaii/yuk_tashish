@@ -7,7 +7,7 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
-} 
+}
 
 p {
   margin: 0;
@@ -58,7 +58,8 @@ section.header .container .row .col h4 {
   margin-top: 250px;
   color: #fff;
 }
-@media (max-width:576px){
+
+@media (max-width:992px) {
   section.header .container .row .col h4 {
     margin-top: 100px;
   }
@@ -97,9 +98,10 @@ section.about_us .container .row .col h3 {
   text-align: center;
   margin-top: 150px;
 }
-@media (max-width:576px){
-  section.about_us .container .row .col h3{
-    margin-top:50px ;
+
+@media (max-width:576px) {
+  section.about_us .container .row .col h3 {
+    margin-top: 50px;
   }
 
 }
@@ -131,7 +133,7 @@ section.workers .container .row .col h4 {
 
 section.workers .container .row .col .responsive {
   height: 460px;
-  
+
 }
 
 section.workers .container .row .col .responsive .slick-slide {
@@ -147,11 +149,12 @@ section.workers .container .row .col .responsive .slick-slide {
 
 section.workers .container .row .col .responsive .slick-slide:hover {
   background: #114e86;
-  
+
   transform: scale(1);
   color: #fff;
 }
-.slick-arrow{
+
+.slick-arrow {
   display: none !important;
 }
 
@@ -234,7 +237,8 @@ footer .container .row .col nav ul.contact li p {
   font-size: 20px;
   margin-left: 17px;
 }
-footer .container .row .col nav ul.menu{
+
+footer .container .row .col nav ul.menu {
   margin-bottom: 3rem;
 }
 
@@ -255,14 +259,15 @@ footer .container .row .col nav ul.menu li {
 }
 
 footer .container .row .col nav .place_for_comment {
- /* width:370px; */
+  /* width:370px; */
   max-width: 345px;
 }
+
 @media (max-width:992px) {
-  footer .container .row .col nav .place_for_comment{
+  footer .container .row .col nav .place_for_comment {
     margin: auto;
   }
-  
+
 }
 
 footer .container .row .col nav .place_for_comment h6 {
@@ -311,6 +316,21 @@ footer .container .row .col nav .place_for_comment a.btn {
 footer .container .row .col nav .place_for_comment a.btn:hover {
   background: #ff8c00;
   color: #fff;
+}
+
+
+@media (max-width:361px) {
+
+  footer .container .row .col nav .place_for_comment a.btn,
+  footer .container .row .col nav .place_for_comment input {
+    width: 335px;
+  }
+
+  footer .container .row .col nav ul.contact li p,
+  footer .container .row .col nav ul.menu li{
+    font-size: 16px;
+
+  }
 }
 
 footer .container .row .col .copyr_icons {
