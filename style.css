@@ -98,7 +98,7 @@ section.about_us .container .row .col h3 {
   margin-top: 150px;
 }
 @media (max-width:576px){
-  tion.about_us .container .row .col h3{
+  section.about_us .container .row .col h3{
     margin-top:50px ;
   }
 
